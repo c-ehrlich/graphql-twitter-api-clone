@@ -1,7 +1,7 @@
 ## Server
 yarn add ts-node-dev typescript -D
 
-yarn add graphql@^15.3.0 class-validator type-graphql reflect-metadata apollo-server-fastify apollo-server-core fastify graphql argon2 @fastify/cookie @fastify/jwt prisma subscription-transport-ws @prisma/client
+yarn add graphql@^15.3.0 class-validator type-graphql reflect-metadata apollo-server-fastify apollo-server-core fastify graphql argon2 @fastify/cookie @fastify/jwt prisma subscriptions-transport-ws @prisma/client
 
 npx tsc --init
 
@@ -23,4 +23,4 @@ yarn add @graphql-codegen/cli @graphql-codegen/typescript-operations @graphql-co
 
 yarn add graphql react-query
 
-yarn graphql-codegen init
+yarn graphql-codegen init 
